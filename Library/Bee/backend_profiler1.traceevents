@@ -1,0 +1,408 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690665130986292, "dur":2136, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665130988439, "dur":4687, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690665130993156, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690665130993184, "dur":416, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690665130993639, "dur":1127, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665130994766, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131351962, "dur":141, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352103, "dur":57, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352160, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352164, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352178, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352180, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352188, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352189, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352195, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352197, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352204, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352205, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352212, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352214, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352219, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352221, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352227, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352245, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131352266, "dur":2597, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690665130994049, "dur":739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665130994791, "dur":9409, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131004582, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690665131004905, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131005327, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690665131005330, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131005867, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690665131006043, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131006403, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1690665131006660, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131006969, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690665131007424, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131007749, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690665131007851, "dur":1499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131009352, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690665131009461, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131010001, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690665131010106, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131010203, "dur":212365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690665131222569, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690665131223005, "dur":128953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665130994109, "dur":699, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665130994808, "dur":9399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131004636, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690665131004934, "dur":1235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131006171, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1690665131006402, "dur":472, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131006876, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131007059, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131007681, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131007794, "dur":1632, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131009427, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131009528, "dur":752, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131010281, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131010388, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131011004, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131012018, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131012137, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131012238, "dur":660, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131012899, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131013010, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131013146, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131013237, "dur":531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131013770, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131013964, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131014308, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131014415, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131014593, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131014712, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131015106, "dur":162561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690665131177667, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131178006, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1690665131178209, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690665131178322, "dur":173638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665130994096, "dur":700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665130994796, "dur":9427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131004581, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690665131004869, "dur":1108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131005979, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690665131006151, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131006376, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690665131006514, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131006967, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131007320, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131007583, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131007688, "dur":1454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131009146, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131009723, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131009853, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131010004, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131010533, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131010640, "dur":722, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131011367, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131011519, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131012006, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131012157, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131012582, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131013048, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131013520, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131013624, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131013948, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131014725, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131015186, "dur":13164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1690665131028351, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131028804, "dur":11004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.AI.Navigation.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1690665131039810, "dur":458, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131040273, "dur":97496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131137786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131137806, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690665131144020, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690665131144185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131144204, "dur":13141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690665131157409, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1690665131157472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131157478, "dur":13569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1690665131171184, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1690665131171261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131171278, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1690665131176806, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690665131176867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690665131176876, "dur":9204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1690665131186148, "dur":165818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665130994154, "dur":663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665130994817, "dur":9387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131004582, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1690665131004871, "dur":1601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131006473, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1690665131006610, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131006873, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131007077, "dur":865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131007944, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131008075, "dur":1069, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131009149, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131009317, "dur":527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131009846, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131009988, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131010108, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131010207, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131010438, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131010552, "dur":1056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131011610, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131011756, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131012035, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131012178, "dur":638, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131012818, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131012928, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131013124, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131013227, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131013708, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131013963, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131014084, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131014184, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131014375, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131014480, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131015112, "dur":336523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690665131351636, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690665131351930, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1690665131351931, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665130994197, "dur":628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665130994825, "dur":9381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131004583, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1690665131005038, "dur":1360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131006399, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690665131006544, "dur":680, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131007226, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1690665131007382, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131007958, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131008064, "dur":1081, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131009148, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131009351, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131009850, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131009961, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131010214, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131010323, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131010638, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131010748, "dur":857, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131011608, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131011754, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131012040, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131012179, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131012688, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131012790, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013021, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013116, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013346, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013456, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013737, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131013963, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131014480, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690665131014581, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131015111, "dur":27206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1690665131042318, "dur":2892, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131045214, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690665131045324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131047641, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690665131052445, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131052504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131052514, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131056651, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131056708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131056716, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131058121, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131058175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131058184, "dur":4196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131062433, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131062487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131062495, "dur":6360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131068915, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131068977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131068986, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131072374, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131072439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131072450, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131074226, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131074315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131074324, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131076130, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131076187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131076196, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131079940, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131079999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131080009, "dur":8631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131088710, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131088771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131088782, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131090881, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131090957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131090969, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131093691, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131093760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131093772, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131097349, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131097415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131097429, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131099202, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131099262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131099277, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131103181, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131103239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131103250, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131105363, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131105418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131105424, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690665131109735, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131109873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131109892, "dur":30140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690665131140093, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131140158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131140169, "dur":16685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131156906, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131156970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131156980, "dur":7885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690665131164941, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1690665131165011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131165023, "dur":5177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1690665131170295, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1690665131170440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131170455, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1690665131174787, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690665131174854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690665131174863, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690665131178736, "dur":173231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665130994234, "dur":600, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665130994834, "dur":9374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131004580, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1690665131004934, "dur":1578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131006513, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1690665131006661, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131007049, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness.exe" }}
+,{ "pid":12345, "tid":6, "ts":1690665131007838, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131007962, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131008071, "dur":1071, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131009147, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131009309, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131009432, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131009534, "dur":733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131010269, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131010407, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131011036, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131011738, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131012007, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131012165, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131012709, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131012810, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131013083, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131013180, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131013265, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131013369, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131013971, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131014098, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131014337, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131014438, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131014831, "dur":17955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1690665131032787, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131033065, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131033178, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131033601, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131033791, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034043, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034177, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034457, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034593, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034691, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131034783, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035067, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035209, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035325, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035431, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035703, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690665131035852, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131036128, "dur":38645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1690665131074783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131074895, "dur":53664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1690665131128857, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1690665131128971, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131128994, "dur":9217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1690665131138312, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1690665131138385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131138398, "dur":18750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1690665131157277, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1690665131157428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131157437, "dur":9524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1690665131167017, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1690665131167078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131167089, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1690665131169894, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1690665131169960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131169972, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1690665131174775, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1690665131174831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131174840, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1690665131177540, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1690665131177621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690665131177632, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1690665131180573, "dur":171397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665130994267, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665130994842, "dur":9361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131004662, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1690665131004870, "dur":786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131005659, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1690665131005966, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131006213, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1690665131006394, "dur":597, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131006993, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1690665131007339, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131007593, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131007760, "dur":2753, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131010514, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131010636, "dur":733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131011371, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131012276, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131012564, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131012706, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131012942, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131013052, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131013385, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131013497, "dur":458, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131013957, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131014115, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131014418, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131014780, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131015273, "dur":293353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690665131308627, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690665131308965, "dur":42996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665130994305, "dur":543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665130994848, "dur":9372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131004580, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1690665131004871, "dur":1336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131006209, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690665131006420, "dur":1052, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131007475, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690665131007666, "dur":1785, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131009453, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690665131009557, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131009703, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690665131009831, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131010166, "dur":22139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1690665131032307, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131032673, "dur":68716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690665131101391, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131101950, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131102137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131102153, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131105223, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131105301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131105309, "dur":4512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131109874, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131109932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131109941, "dur":39948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690665131151668, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1690665131152006, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131152169, "dur":17705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1690665131169875, "dur":3230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131173109, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1690665131173261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131173287, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1690665131176951, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690665131177013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690665131177107, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/IVM505/OneDrive/ /tlh/The Lost Happiness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690665131179326, "dur":172639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690665131359195, "dur":3428, "ph":"X", "name": "ProfilerWriteOutput" }
+,
